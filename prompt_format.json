@@ -1,0 +1,7 @@
+{
+  "chat_template": "gemma-3",
+  "system_role_supported": false,
+  "user_instruction": "Rewrite the sentence below. Keep the meaning exactly the same, change the wording and structure, and return only the rewritten sentence.\n\n{src}",
+  "note": "Gemma's template emits <bos>; strip the tokenizer's duplicate.",
+  "rendered_example": "<start_of_turn>user\nRewrite the sentence below. Keep the meaning exactly the same, change the wording and structure, and return only the rewritten sentence.\n\nThe cat sat on the mat.<end_of_turn>\n<start_of_turn>model\n"
+}
